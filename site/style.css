@@ -1,0 +1,230 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Josephine Sans', sans-serif;
+	box-sizing: border-box;
+}
+
+spin {
+	color: #18391e;
+	font-family: 'Bebas Neue', cursive;
+}
+
+/* logo, menu de navigation et banner */
+
+.menu {
+	height: 100vh;
+	width: 100%;
+	background-image: url(https://images.unsplash.com/photo-1554841602-058d906d2276?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80);
+	background-size: cover;
+	background-position: center;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%
+}
+
+.logo {
+	color: white;
+	font-size: 35px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 25px;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav ul li a:hover {
+	color: #18391e;
+}
+
+h1 {
+	color: #18391e;
+	margin: 10px 50px 20px;
+	font-size: 100px;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 6px;
+}
+
+h2 {
+	color: #18391e;
+	text-align: center;
+	font-size: 65px;
+	font-family: 'Cedarville Cursive', cursive;
+}
+
+h3 {
+	color: white;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+
+.banner {
+	text-align: center;
+	width: auto;
+	padding-top: 220px;
+	padding-bottom: 220px;
+}
+
+/* les destinations */
+
+.destinations {
+	width: 100%;
+	padding-top: 24px;
+	padding-bottom: 8px;
+	background-color: #d9f0f8;
+	
+}
+
+.title h2 {
+	color: white;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+.cards {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+	background-color: #d9f0f8;
+}
+
+.card .israel {
+	height: 320px;
+	width: 320px;
+	padding: 20px 35px;
+	background-image: url(https://images.unsplash.com/photo-1500990702037-7620ccb6a60a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+	border-radius: 20px;
+	margin: 15px;
+	text-align: center;
+	background-size: cover;
+	background-position: center;
+}
+
+.card .jordanie {
+	height: 320px;
+	width: 320px;
+	padding: 20px 35px;
+	background-image: url(https://www.grimper.com/media/019/2019-09/wadi%20rum%20en%20jordanie%202.jpg);
+	border-radius: 20px;
+	margin: 15px;
+	text-align: center;
+	background-size: cover;
+	background-position: center;
+}
+
+.card .liban {
+	height: 320px;
+	width: 320px;
+	padding: 20px 35px;
+	background-image: url(https://images.unsplash.com/photo-1571249246946-f0fc69085ef5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+	border-radius: 20px;
+	margin: 15px;
+	text-align: center;
+	background-size: cover;
+	background-position: center;
+}
+
+.card .oman {
+	height: 320px;
+	width: 320px;
+	padding: 20px 35px;
+	background-image: url(https://images.unsplash.com/photo-1596445145149-f0906e6b3dd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+	border-radius: 20px;
+	margin: 15px;
+	text-align: center;
+	background-size: cover;
+	background-position: center;
+}
+
+.card i {
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+}
+
+h4 {
+	color: #18391e;
+	font-size: 23px;
+	margin-bottom: 15px;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 2px;
+}
+
+.card .cta {
+	background-color: #18391e;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	padding: 9px 22px;
+	border-radius: 30px;
+}
+
+/* les réseaux sociaux */
+
+.social {
+	width: 100%;
+	padding-top: 24px;
+	padding-bottom: 45px;
+	background-color: white;
+	text-align: center;
+	font-size: 32px;
+}
+
+.social h2 {
+	margin-bottom: 24px;
+}
+
+.fa-brands {
+	color: #18391e;
+}
+
+.fa-facebook-f:hover {
+	color: #3B5998;
+}
+
+.fa-instagram:hover {
+	color: #C32AA3;
+}
+
+.fa-linkedin-in:hover {
+	color: #007BB5;
+}
+
+.fa-twitter:hover {
+	color: #1DA1F2;
+}
+
+.fa-youtube:hover {
+	color: #FF0000;
+}
+
+/* le footer */
+
+.footer {
+	width: 100%;
+	padding-top: 24px;
+	padding-bottom: 8px;
+	background-color: black;
+	text-align: center;
+	color: white;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
